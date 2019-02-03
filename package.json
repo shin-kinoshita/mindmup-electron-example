@@ -2,9 +2,11 @@
   "name": "mindmup-electron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "site/main/index.js",
   "scripts": {
-    "pack-js": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",
